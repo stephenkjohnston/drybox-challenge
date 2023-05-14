@@ -4,4 +4,24 @@
     width: 100%;
     padding: 32px;
     background: var(--color-dark-gray);
+    text-align: center;
+    color: var(--color-white);
+
+    
+    a {
+        text-decoration: none;
+        color: var(--color-white);
+    }
+    
+    .footerLocations {
+        margin-bottom: 20px;
+
+        h6 {
+            text-transform: uppercase;
+        }
+    }
+
+    .footerLinks {
+        margin-bottom: 20px;
+    }
 }
