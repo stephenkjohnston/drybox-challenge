@@ -16,7 +16,7 @@ article {
     justify-content: space-evenly;
 
     h1 {
-        font-size: 48px;
+        font-size: 36px;
         font-weight: 800;
         line-height: 1;
     }
@@ -34,8 +34,6 @@ article {
     }
 
     @media only screen and (max-width: 991px) {
-        h1 {
-            font-size: 20px;
-        }
+        padding: 3rem 2.5rem 3rem;
     }
 }

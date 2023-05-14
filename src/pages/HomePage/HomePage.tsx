@@ -1,7 +1,8 @@
 import styles from './HomePage.module.scss';
 import CustomerReviews from './components/CustomerReviews';
 import HomePageHero from './components/HomePageHero';
-import RentOrBuyInfo from './components/RentOrBuyInfo/RentOrBuyInfo';
+import QuickQuote from './components/QuickQuote';
+import RentOrBuyInfo from './components/RentOrBuyInfo';
 
 export default function HomePage() {
     return (
@@ -9,6 +10,7 @@ export default function HomePage() {
             <HomePageHero />
             <CustomerReviews />
             <RentOrBuyInfo />
+            <QuickQuote />
         </>
     )
 }
