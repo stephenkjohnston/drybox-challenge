@@ -20,26 +20,37 @@
         text-align: center;
 
         .quoteOption {
+            display: flex;
+            flex-direction: column;
             padding: 0 40px;
+
+            img {
+                height: 100px;
+            }
 
             h3 {
                 margin-bottom: 20px;
             }
         }
-    }
 
-    .phoneNumberButton {
-        display: block;
-        margin: 40px 0;
-        border: 0;
-        border-radius: 100px;
-        padding: 8px 15px;
-        font-size: 26px;
-        background: var(--color-yellow);
-        color: var(--color-dark-gray);
-        font-weight: 800;
-        text-decoration: none;
-        text-align: center;
+        .button {
+            display: flex;
+            margin: 40px 0;
+            border: 0;
+            border-radius: 100px;
+            padding: 8px 15px;
+            font-size: 26px;
+            background: var(--color-yellow);
+            color: var(--color-dark-gray);
+            font-weight: 800;
+            text-decoration: none;
+            align-items: center;
+            justify-content: center;
+    
+            &.block {
+                width: 100%;
+            }
+        }
     }
 
     @media only screen and (max-width: 991px) {
