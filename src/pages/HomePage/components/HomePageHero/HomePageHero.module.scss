@@ -1,0 +1,41 @@
+.hero {
+    display: flex;
+    width: 100%;
+    background: var(--color-light-gray);
+
+    @media only screen and (max-width: 991px) {
+        flex-direction: column;
+    }
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 4.5rem 3rem;
+    gap: 20px;
+    justify-content: space-evenly;
+
+    h1 {
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 1;
+    }
+
+    a {
+        border: 0;
+        border-radius: 100px;
+        padding: 8px 15px;
+        font-size: 26px;
+        background: var(--color-yellow);
+        color: var(--color-dark-gray);
+        font-weight: 800;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    @media only screen and (max-width: 991px) {
+        h1 {
+            font-size: 20px;
+        }
+    }
+}
