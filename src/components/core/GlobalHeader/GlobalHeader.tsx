@@ -22,6 +22,13 @@ export default function GlobalHeader() {
         }
     )
 
+    const menuClassNames = cx(
+        styles?.navigation,
+        {
+            [styles?.visible]: isHamburgerOpen
+        }
+    );
+
     return (
         <header className={styles?.header}>
             <div className={styles?.hamburgerMenu}>
@@ -34,8 +41,19 @@ export default function GlobalHeader() {
                     <img src={WSCLogo} width="170" />
                 </a>
             </div>
-            <nav className={styles?.navigation}>
-
+            <nav className={menuClassNames}>
+                <ul>
+                    <li className={styles?.menu}>
+                        <a href="/containers" title="Shop Containers">Shop Containers</a>
+                    </li>
+                    <li className={styles?.menu}>
+                        <a href="#">Locations</a>
+                        <ul className={styles?.submenu}>
+                            <li><a href="#">Washington</a></li>
+                            <li><a href="#">Oregon</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </nav>
         </header>
     )
