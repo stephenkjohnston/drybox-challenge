@@ -90,6 +90,10 @@ export default function ContainersPage() {
                             ))}
                             </div>
                         </div>
+                        <div className={styles?.quickQuotes}>
+                            <button className={styles?.quickQuote}>Get a Quote</button>
+                            <a className={styles?.quickPhoneNumber} href="tel:18888888888">Call Now</a>
+                        </div>
                     </div>
                 )
             })

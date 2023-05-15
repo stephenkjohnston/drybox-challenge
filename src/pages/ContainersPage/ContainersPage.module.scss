@@ -137,7 +137,7 @@
 
     h6 {
         margin-bottom: 20px;
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
     }
 
@@ -156,6 +156,35 @@
         display: flex;
         width: 100%;
         flex-direction: column;
+    }
+
+    .quickQuotes {
+        display: grid;
+        margin-top: 40px;
+        gap: 30px;
+        grid-template-columns: auto auto;
+
+        .quickQuote,
+        .quickPhoneNumber {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px 10px;
+            border-radius: 100px;
+            border: none;
+            font-weight: 800;
+        }
+
+        .quickQuote {
+            background: var(--color-yellow);
+            color: var(--color-dark-gray);
+        }
+
+        .quickPhoneNumber {
+            background: var(--color-white);
+            border: 2px solid var(--color-green);
+            color: var(--color-dark-gray);
+        }
     }
 }
 
