@@ -66,16 +66,22 @@ export default function ContainersPage() {
         setShowFiltersMenu(!showFiltersMenu);
     }, [showFiltersMenu, setShowFiltersMenu]);
 
+    function stringify_title(title: string) {
+        return title?.replace(/\s/g, "-");
+    }
+
     const renderContainers = () => {
         if (data) {
             return data?.map(container => {
                 return (
                     <div key={v4()} className={styles?.container}>
                         <figure>
-                            <div className={styles?.condition}>{container?.condition}</div>
-                            <img src={container?.image} alt={container?.title} />
+                            <a href={`/containers/${stringify_title(container?.title)}`}>
+                                <div className={styles?.condition}>{container?.condition}</div>
+                                <img src={container?.image} alt={container?.title} />
+                            </a>
                         </figure>
-                        <h6>{container?.title}</h6>
+                        <h6><a href={`/containers/${stringify_title(container?.title)}`}>{container?.title}</a></h6>
                         <div className={styles?.colors}>
                             <b>Colors:</b>
                             <div className={styles?.colorSwatches}>
