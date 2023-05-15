@@ -5,8 +5,9 @@ import { useParams } from 'react-router-dom';
 import cx from 'classnames';
 import Accordion from 'react-bootstrap/Accordion';
 import AccordionHeader from 'react-bootstrap/esm/AccordionHeader';
-import styles from './ContainersPage.module.scss';
 import { useCallback, useState } from 'react';
+
+import styles from './ContainersPage.module.scss';
 
 export default function ContainersPage() {
 
@@ -93,6 +94,8 @@ export default function ContainersPage() {
                 )
             })
         }
+
+        return null;
     };
 
     return (

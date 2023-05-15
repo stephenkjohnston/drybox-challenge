@@ -1,14 +1,42 @@
-import { useRecoilState } from "recoil";
-import containersAtom from 'atoms/containersAtom';
-import ContainerData from "data/containers.json";
-import { useEffect } from "react";
+import { selector, useRecoilState, useRecoilValue } from "recoil";
+import containersAtom from "atoms/containersAtom";
+import filtersAtom from "atoms/filtersAtom";
 
 export default function useContainers() {
-    const [data, setData] = useRecoilState(containersAtom);
+    const containersSelector = selector({
+        key: "getFilteredContainers",
+        get: ({ get }) => {
+            const currentFilters = get(filtersAtom);
+            const currentContainerData = get(containersAtom);
+            let filteredContainerData;
 
-    useEffect(() => {
-        setData(ContainerData);
-    }, []);
+            if ((!currentFilters?.color && !currentFilters?.condition) || currentFilters?.condition === 'both') {
+                filteredContainerData = currentContainerData
+            }
+
+            if ((currentFilters?.color && currentFilters?.condition)) {
+                filteredContainerData = currentContainerData.filter(
+                    container => (container?.colors?.includes(currentFilters?.color) && container?.condition === currentFilters?.condition )
+                )
+            }
+
+            if ((currentFilters?.color && !currentFilters?.condition)) {
+                filteredContainerData = currentContainerData.filter(
+                    container => (container?.colors?.includes(currentFilters?.color))
+                )
+            }
+
+            if ((!currentFilters?.color && currentFilters?.condition)) {
+                filteredContainerData = currentContainerData.filter(container => container?.condition === currentFilters?.condition)
+            }
+
+            return filteredContainerData;
+        },
+        set: ({set}, newValue) => {}
+    });
+
+    const [data] = useRecoilState(containersSelector);
+
 
     return {
         data
