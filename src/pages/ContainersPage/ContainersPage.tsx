@@ -42,6 +42,18 @@ export default function ContainersPage() {
         }
     ]
 
+    function formatDimensions(dimension: number) {
+        const stringifiedDimensions = `${dimension}`.split('.');
+        let newDimensions;
+        if (~~stringifiedDimensions[1] === 0) {
+            newDimensions = `${stringifiedDimensions}'`
+        } else {
+            newDimensions = `${stringifiedDimensions[0]}' ${stringifiedDimensions[1]}"`
+        }
+
+        return newDimensions;
+    }
+
     const updateCurrentFilter = useCallback((key: string, filter: string) => {
         updateFilters(key, filter);
     }, [updateFilters]);
@@ -55,6 +67,7 @@ export default function ContainersPage() {
                             <div className={styles?.condition}>{container?.condition}</div>
                             <img src={container?.image} alt={container?.title} />
                         </figure>
+                        <h6>{container?.title}</h6>
                         <div className={styles?.colors}>
                             <b>Colors:</b>
                             <div className={styles?.colorSwatches}>
@@ -63,7 +76,14 @@ export default function ContainersPage() {
                                 ))}
                             </div>
                         </div>
-                        <h6>{container?.title}</h6>
+                        <div>
+                            <b>Dimensions:</b>
+                            <div className={styles?.containerDimensions}>
+                            {container?.dimensions.map(dim => (
+                                <div className={styles?.dimension}>{formatDimensions(dim?.width)} x {formatDimensions(dim.height)} x {formatDimensions(dim.length)}</div>
+                            ))}
+                            </div>
+                        </div>
                     </div>
                 )
             })
@@ -113,7 +133,18 @@ export default function ContainersPage() {
                             <Accordion.Body>
                                 <div className={styles?.filtersCondition}>
                                     {conditionFilters.map(condition => (
-                                        <button className={styles?.filtersConditionChip} key={condition?.key}>{condition?.label}</button>
+                                        <button
+                                            key={condition?.key}
+                                            className={cx(
+                                                styles?.filtersConditionChip,
+                                                {
+                                                    [styles?.active]: filters?.condition === condition?.key
+                                                }
+                                            )}
+                                            onClick={() => updateCurrentFilter('condition', condition?.key)}
+                                        >
+                                            {condition?.label}
+                                        </button>
                                     ))}
                                 </div>
                             </Accordion.Body>
