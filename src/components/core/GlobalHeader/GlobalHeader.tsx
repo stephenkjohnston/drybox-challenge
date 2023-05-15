@@ -24,14 +24,19 @@ export default function GlobalHeader() {
 
     return (
         <header className={styles?.header}>
-            <div className={styles?.brand}>
-                <a href="/" className={styles?.navbarItem}>
-                    <img src={WSCLogo} width="170" />
-                </a>
+            <div className={styles?.hamburgerMenu}>
                 <button role="button" className={hamburgerClassNames} aria-label="Main Menu" aria-expanded={isHamburgerOpen} onClick={onHamburgerClicked} >
                     <span aria-hidden="true"></span>
                 </button>
             </div>
+            <div className={styles?.brand}>
+                <a href="/" className={styles?.navbarItem}>
+                    <img src={WSCLogo} width="170" />
+                </a>
+            </div>
+            <nav className={styles?.navigation}>
+
+            </nav>
         </header>
     )
 }
