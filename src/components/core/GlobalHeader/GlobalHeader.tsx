@@ -53,6 +53,13 @@ export default function GlobalHeader() {
                             <li><a href="#">Oregon</a></li>
                         </ul>
                     </li>
+                    <li className={styles?.menu}>
+                        <a href="#">Company</a>
+                        <ul className={styles?.submenu}>
+                            <li><a href="/company/about">About Us</a></li>
+                            <li><a href="/company/contact">Contact</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </header>
