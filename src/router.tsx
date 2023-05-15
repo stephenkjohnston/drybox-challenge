@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import HomePage from "pages/HomePage";
-import ShopPage from "pages/ShopPage";
+import ContainersPage from "pages/ContainersPage";
 import LocationsPage from "pages/LocationsPage";
 import AboutPage from "pages/AboutPage";
 import ContactPage from "pages/ContactPage";
@@ -11,11 +11,11 @@ export default createBrowserRouter([
         element: <HomePage />
     },
     {
-        path: '/shop',
-        element: <ShopPage />,
+        path: '/containers',
+        element: <ContainersPage />,
         children: [
             {
-                path: '/shop/containers/:containerType'
+                path: '/containers/:containerType'
             }
         ]
     },
