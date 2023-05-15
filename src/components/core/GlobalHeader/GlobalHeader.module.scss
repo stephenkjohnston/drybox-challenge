@@ -6,12 +6,12 @@
     right: 0;
     width: 100%;
     height: 6.25rem;
-    background: blue;
+    // background: blue;
+    background: var(--color-white);
     gap: 40px;
     z-index: 99999;
 
     @media only screen and (max-width: 991px) {
-        background: red;
     }
 }
 
@@ -30,6 +30,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media only screen and (max-width: 991px) {
+        flex-grow: 1;
+    }
 }
 
 .hamburgerMenu {
@@ -47,8 +51,8 @@
         margin-left: 10px;
         width: 36px;
         height: 36px;
-        background: orange;
         position: relative;
+        background: var(--color-white);
         transition: all .5s ease-in-out;
         border: none;
     
@@ -190,7 +194,28 @@
                     display: block;
                     position: absolute;
                     top: 100px;
+                    left: 0;
                     width: 100%;
+                    padding: 0;
+                    margin: 0;
+                    background: var(--color-white);
+                    border-bottom-left-radius: 6px;
+                    border-bottom-right-radius: 6px;
+
+                    li {
+                        display: flex;
+                        font-size: 16px;
+                        border-bottom-left-radius: 6px;
+                        border-bottom-right-radius: 6px;
+
+                        &:hover {
+                            background: var(--color-light-gray);
+                        }
+
+                        a {
+                            padding: 10px 15px;
+                        }
+                    }
                 }
             }
         }
@@ -211,4 +236,38 @@
             color: var(--color-dark-gray);   
         }
     }
-}   
+}
+
+.headerQuickContact {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+
+    .headerQuickQuoteButton,
+    .headerQuickPhoneCallButton {
+        display: flex;
+        padding: 8px 20px;
+        border-radius: 100px;
+        font-size: 18px;
+        border: none;
+        background: var(--color-yellow);
+        color: var(--color-dark-gray);
+        font-weight: 800;
+        height: 50px;
+        text-decoration: none;
+        align-items: center;
+    }
+
+    @media only screen and (max-width: 991px) {
+        padding-right: 20px;
+        width: unset;
+
+        .headerQuickQuoteButton {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+    }
+}

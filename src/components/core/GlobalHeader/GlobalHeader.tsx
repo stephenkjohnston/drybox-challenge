@@ -3,11 +3,15 @@ import cx from 'classnames';
 
 import WSCLogo from '../../../assets/images/logo.png';
 import styles from './GlobalHeader.module.scss';
+import useModal from 'hooks/useModal/useModal';
 
 export default function GlobalHeader() {
     
     // Set initial state of the hamburger menu
     const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
+
+    // Get the global modal hook
+    const { show } = useModal();
 
     // Callback to set the hamburger state
     const onHamburgerClicked = useCallback(() => {
@@ -62,6 +66,10 @@ export default function GlobalHeader() {
                     </li>
                 </ul>
             </nav>
+            <div className={styles?.headerQuickContact}>
+                <button className={styles?.headerQuickQuoteButton} onClick={() => show()}>Get a Quote</button>
+                <a href="tel:18888888888" className={styles?.headerQuickPhoneCallButton}>888-888-8888</a>
+            </div>
         </header>
     )
 }

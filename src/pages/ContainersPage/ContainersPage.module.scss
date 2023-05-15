@@ -5,6 +5,7 @@
     flex-direction: column;
     background: var(--color-white);
     text-align: center;
+    border-top: 1px solid var(--color-dark-gray);
     border-bottom: 1px solid var(--color-dark-gray);
     top: 100px;
     left: 0;
@@ -39,8 +40,9 @@
             display: block;
             top: auto;
             left: 20px;
-            right: 20px;
-            bottom: 20px;
+            right: 200px;
+            height: 50px;
+            bottom: 0px;
             z-index: 20;
         }
     }
