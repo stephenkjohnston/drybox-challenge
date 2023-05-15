@@ -8,6 +8,7 @@ import AccordionHeader from 'react-bootstrap/esm/AccordionHeader';
 import { useCallback, useState } from 'react';
 
 import styles from './ContainersPage.module.scss';
+import useModal from 'hooks/useModal/useModal';
 
 export default function ContainersPage() {
 
@@ -15,6 +16,7 @@ export default function ContainersPage() {
     const { data } = useContainers();
     const { filters, updateFilters, resetFilters} = useFilters();
     const [showFiltersMenu, setShowFiltersMenu] = useState(false);
+    const { show } = useModal();
 
     console.log({ filters });
 
@@ -91,7 +93,7 @@ export default function ContainersPage() {
                             </div>
                         </div>
                         <div className={styles?.quickQuotes}>
-                            <button className={styles?.quickQuote}>Get a Quote</button>
+                            <button className={styles?.quickQuote} onClick={() => show()}>Get a Quote</button>
                             <a className={styles?.quickPhoneNumber} href="tel:18888888888">Call Now</a>
                         </div>
                     </div>
