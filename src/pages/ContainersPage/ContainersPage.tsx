@@ -6,13 +6,14 @@ import cx from 'classnames';
 import Accordion from 'react-bootstrap/Accordion';
 import AccordionHeader from 'react-bootstrap/esm/AccordionHeader';
 import styles from './ContainersPage.module.scss';
-import { useCallback } from 'react';
+import { useCallback, useState } from 'react';
 
 export default function ContainersPage() {
 
     const { containerType } = useParams();
     const { data } = useContainers();
     const { filters, updateFilters, resetFilters} = useFilters();
+    const [showFiltersMenu, setShowFiltersMenu] = useState(false);
 
     console.log({ filters });
 
@@ -58,6 +59,10 @@ export default function ContainersPage() {
         updateFilters(key, filter);
     }, [updateFilters]);
 
+    const toggleFiltersMenu = useCallback(() => {
+        setShowFiltersMenu(!showFiltersMenu);
+    }, [showFiltersMenu, setShowFiltersMenu]);
+
     const renderContainers = () => {
         if (data) {
             return data?.map(container => {
@@ -80,7 +85,7 @@ export default function ContainersPage() {
                             <b>Dimensions:</b>
                             <div className={styles?.containerDimensions}>
                             {container?.dimensions.map(dim => (
-                                <div className={styles?.dimension}>{formatDimensions(dim?.width)} x {formatDimensions(dim.height)} x {formatDimensions(dim.length)}</div>
+                                <div key={v4()} className={styles?.dimension}>{formatDimensions(dim?.width)} x {formatDimensions(dim.height)} x {formatDimensions(dim.length)}</div>
                             ))}
                             </div>
                         </div>
@@ -94,12 +99,14 @@ export default function ContainersPage() {
         <>
             <div className={styles?.actionsBar}>
                 <span className={styles?.filteredProductCount}>Showing {data?.length} Containers</span>
-                <button>Filters</button>
+                <button onClick={() => toggleFiltersMenu()}>Filters</button>
             </div>
             <section className={styles?.products}>
-                <aside className={styles?.filters}>
-                    <button className={styles?.resetFiltersButton} onClick={() => resetFilters()}>Clear Filters</button>
-
+                <aside className={cx(styles?.filters, {
+                    [styles?.filtersMenuVisible]: showFiltersMenu
+                })}>
+                    <button className={styles?.filtersButton} onClick={() => resetFilters()}>Clear Filters</button>
+                    <button className={styles?.filtersButton} onClick={() => toggleFiltersMenu()}>See Results</button>
                     <Accordion defaultActiveKey="0">
                         <Accordion.Item eventKey="0">
                             <AccordionHeader>
