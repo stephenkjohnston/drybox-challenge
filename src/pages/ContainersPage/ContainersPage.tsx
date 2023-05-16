@@ -9,6 +9,7 @@ import { useCallback, useState } from 'react';
 
 import styles from './ContainersPage.module.scss';
 import useModal from 'hooks/useModal/useModal';
+import { formatDimensions } from 'utils';
 
 export default function ContainersPage() {
 
@@ -44,19 +45,7 @@ export default function ContainersPage() {
             key: 'used'
         }
     ]
-
-    function formatDimensions(dimension: number) {
-        const stringifiedDimensions = `${dimension}`.split('.');
-        let newDimensions;
-        if (~~stringifiedDimensions[1] === 0) {
-            newDimensions = `${stringifiedDimensions}'`
-        } else {
-            newDimensions = `${stringifiedDimensions[0]}' ${stringifiedDimensions[1]}"`
-        }
-
-        return newDimensions;
-    }
-
+    
     const updateCurrentFilter = useCallback((key: string, filter: string) => {
         updateFilters(key, filter);
     }, [updateFilters]);
