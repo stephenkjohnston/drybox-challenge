@@ -55,7 +55,7 @@ export default function ContainerPage() {
                     </div>
                     <div className={styles?.quickQuotes}>
                         <button className={styles?.quickQuote} onClick={() => show()}>Get a Quote</button>
-                        <a className={styles?.quickPhoneNumber} href="tel:18888888888">Call Now</a>
+                        <a className={styles?.quickPhoneNumber} href="tel:18888888888">Call 888-888-8888</a>
                     </div>
                 </div>
             </div>
