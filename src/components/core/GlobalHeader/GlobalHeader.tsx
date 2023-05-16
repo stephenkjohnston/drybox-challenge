@@ -1,5 +1,5 @@
-import { useState, useCallback } from 'react';
-import { Link } from "react-router-dom";
+import { useState, useCallback, useEffect } from 'react';
+import { Link, useLocation } from "react-router-dom";
 import cx from 'classnames';
 
 import WSCLogo from '../../../assets/images/logo.png';
@@ -10,7 +10,8 @@ export default function GlobalHeader() {
     
     // Set initial state of the hamburger menu
     const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
-
+    let location = useLocation();
+    
     // Get the global modal hook
     const { show } = useModal();
 
@@ -33,6 +34,10 @@ export default function GlobalHeader() {
             [styles?.visible]: isHamburgerOpen
         }
     );
+
+    useEffect(() => {
+        setIsHamburgerOpen(false);
+    }, [location]);
 
     return (
         <header className={styles?.header}>
