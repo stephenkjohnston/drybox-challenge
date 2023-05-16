@@ -1,513 +1,495 @@
-[
-    {
-        "title": "10ft One Trip Shipping Container",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2020/05/8ft-new-shipping-container-scaled-500x500.jpg",
-        "dimensions": [
-            {
-                "width": 10.0,
-                "height": 8.6,
-                "length": 10.0
-            }
-        ],
-        "keywords": [
-            "new",
-            "10ft"
-        ],
-        "condition": "new",
-        "colors": [
-            "beige",
-            "red",
-            "blue"
-        ]
-    },
-    {
-        "title": "10ft Shipping Container",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2019/09/10-White-Cutdown-with-Cargo-Doors-2-scaled-500x500.jpg",
-        "dimensions": [
-            {
-                "width": 10.0,
-                "height": 8.6,
-                "length": 10.0
-            }
-        ],
-        "keywords": [
-            "used",
-            "10ft"
-        ],
-        "condition": "used",
-        "colors": [
-            "beige"
-        ]
-    },
-    {
-        "title": "10ft Shipping Container with Roll Door",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2020/05/Burnt-orange-10ft-with-roll-door-scaled-500x500.jpg",
-        "dimensions": [
-            {
-                "width": 10.0,
-                "height": 8.6,
-                "length": 10.0
-            }
-        ],
-        "keywords": [
-            "used",
-            "10ft"
-        ],
-        "condition": "used",
-        "colors": [
-            "beige",
-            "red"
-        ]
-    },
-    {
-        "title": "8ft Shipping Container",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2020/05/Burnt-orange-10ft-with-roll-door-scaled-500x500.jpg",
-        "dimensions": [
-            {
-                "width": 8.0,
-                "height": 8.0,
-                "length": 8.0
-            }
-        ],
-        "keywords": [
-            "used",
-            "8ft"
-        ],
-        "condition": "used",
-        "colors": [
-            "beige",
-            "blue",
-            "white"
-        ]
-    },
-    {
-        "title": "15ft Modified Shipping Container",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2019/09/15-HC-Bright-Red-Custom-Storage-Container-with-Roll-Door-4-500x500.jpg",
-        "dimensions": [
-            {
-                "width": 8.0,
-                "height": 8.6,
-                "length": 15.0
-            },
-            {
-                "width": 8.0,
-                "height": 9.6,
-                "length": 15.0
-            }
-        ],
-        "keywords": [
-            "custom",
-            "used",
-            "15ft"
-        ],
-        "condition": "used",
-        "colors": [
-            "blue",
-            "white"
-        ]
-    },
-    {
-        "title": "15ft High Cube Custom Storage container with Lock Box",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2020/06/drybox-shipping-container-coming-soon-3-500x500.png",
-        "dimensions": [
-            {
-                "width": 8.0,
-                "height": 8.6,
-                "length": 15.0
-            },
-            {
-                "width": 8.0,
-                "height": 9.6,
-                "length": 15.0
-            }
-        ],
-        "keywords": [
-            "custom",
-            "used",
-            "hc",
-            "15ft"
-        ],
-        "condition": "new",
-        "colors": [
-            "blue",
-            "green"
-        ]
-    },
-    {
-        "title": "15ft Custom Storage Container with Roll Door",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2020/06/DSC00247-scaled-500x500.jpg",
-        "dimensions": [
-            {
-                "width": 8.0,
-                "height": 8.6,
-                "length": 15.0
-            },
-            {
-                "width": 8.0,
-                "height": 9.6,
-                "length": 15.0
-            }
-        ],
-        "keywords": [
-            "custom",
-            "used",
-            "15ft"
-        ],
-        "condition": "used",
-        "colors": [
-            "blue",
-            "green",
-            "silver",
-            "red"
-        ]
-    },
-    {
-        "title": "20ft New One Trip Shipping Container",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2019/09/20-New-one-trip-shipping-container-1-scaled-500x500.jpg",
-        "dimensions": [
-            {
-                "width": 8.0,
-                "height": 8.6,
-                "length": 20.0
-            }
-        ],
-        "keywords": [
-            "new",
-            "20ft"
-        ],
-        "condition": "new",
-        "colors": [
-            "blue",
-            "green",
-            "silver",
-            "red"
-        ]
-    },
-    {
-        "title": "20ft WWT Shipping Container",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2020/05/DSC01203-scaled-500x500.jpg",
-        "dimensions": [
-            {
-                "width": 8.0,
-                "height": 8.6,
-                "length": 20.0
-            }
-        ],
-        "keywords": [
-            "wwt",
-            "new",
-            "20ft"
-        ],
-        "condition": "new",
-        "colors": [
-            "tan",
-            "beige",
-            "gray",
-            "blue"
-        ]
-    },
-    {
-        "title": "20ft CW Shipping Container",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2020/05/DSC01366-scaled-500x500.jpg",
-        "dimensions": [
-            {
-                "width": 8.0,
-                "height": 8.6,
-                "length": 20.0
-            }
-        ],
-        "keywords": [
-            "cw",
-            "used",
-            "20ft"
-        ],
-        "condition": "used",
-        "colors": [
-            "tan",
-            "beige",
-            "gray",
-            "blue"
-        ]
-    },
-    {
-        "title": "20ft Used Shipping Container (IICL Condition)",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2020/05/DSC01356-2-500x500.jpg",
-        "dimensions": [
-            {
-                "width": 8.0,
-                "height": 8.6,
-                "length": 20.0
-            }
-        ],
-        "keywords": [
-            "iicl",
-            "used",
-            "20ft"
-        ],
-        "condition": "used",
-        "colors": [
-            "tan",
-            "beige",
-            "gray",
-            "blue"
-        ]
-    },
-    {
-        "title": "24ft Used Modified Container",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2020/05/DSC01356-2-500x500.jpg",
-        "dimensions": [
-            {
-                "width": 8.0,
-                "height": 8.6,
-                "length": 20.0
-            }
-        ],
-        "keywords": [
-            "modified",
-            "used",
-            "24ft"
-        ],
-        "condition": "used",
-        "colors": [
-            "tan",
-            "beige"
-        ]
-    },
-    {
-        "title": "24ft High Cube Custom Storage Container with Roll Door",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2020/06/20191111_153054-scaled-500x500.jpg",
-        "dimensions": [
-            {
-                "width": 8.0,
-                "height": 8.6,
-                "length": 20.0
-            }
-        ],
-        "keywords": [
-            "hc",
-            "used",
-            "24ft"
-        ],
-        "condition": "used",
-        "colors": [
-            "tan",
-            "beige",
-            "green"
-        ]
-    },
-    {
-        "title": "30ft Custom Storage container with Roll door",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2020/06/DSC03820-scaled-500x500.jpg",
-        "dimensions": [
-            {
-                "width": 8.0,
-                "height": 8.6,
-                "length": 30.0
-            },
-            {
-                "width": 8.0,
-                "height": 9.6,
-                "length": 30.0
-            }
-        ],
-        "keywords": [
-            "used",
-            "30ft"
-        ],
-        "condition": "used",
-        "colors": [
-            "tan",
-            "beige",
-            "green"
-        ]
-    },
-    {
-        "title": "40ft Shipping Container",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2019/09/new-40-500x500.jpg",
-        "dimensions": [
-            {
-                "width": 8.0,
-                "height": 8.6,
-                "length": 40.0
-            }
-        ],
-        "keywords": [
-            "used",
-            "40ft"
-        ],
-        "condition": "used",
-        "colors": [
-            "tan",
-            "beige",
-            "green",
-            "blue"
-        ]
-    },
-    {
-        "title": "40ft Shipping Container",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500,h_480/https://dryboxusa.com/wp-content/uploads/2019/09/used-40-500x480.jpg",
-        "dimensions": [
-            {
-                "width": 8.0,
-                "height": 8.6,
-                "length": 40.0
-            }
-        ],
-        "keywords": [
-            "used",
-            "40ft"
-        ],
-        "condition": "used",
-        "colors": [
-            "tan",
-            "red"
-        ]
-    },
-    {
-        "title": "40ft High Cube Container",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2019/09/new-40-hc-500x500.jpg",
-        "dimensions": [
-            {
-                "width": 8.0,
-                "height": 9.6,
-                "length": 40.0
-            }
-        ],
-        "keywords": [
-            "new",
-            "hc",
-            "40ft"
-        ],
-        "condition": "new",
-        "colors": [
-            "tan",
-            "red"
-        ]
-    },
-    {
-        "title": "40ft High Cube Container",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2019/09/used-40ft-hc-container-500x375.jpg",
-        "dimensions": [
-            {
-                "width": 8.0,
-                "height": 9.6,
-                "length": 40.0
-            }
-        ],
-        "keywords": [
-            "used",
-            "hc",
-            "40ft"
-        ],
-        "condition": "used",
-        "colors": [
-            "tan",
-            "red"
-        ]
-    },
-    {
-        "title": "45ft High Cube Container",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2019/09/used-45-HC.jpg",
-        "dimensions": [
-            {
-                "width": 8.0,
-                "height": 9.6,
-                "length": 40.0
-            }
-        ],
-        "keywords": [
-            "used",
-            "45ft"
-        ],
-        "condition": "used",
-        "colors": [
-            "tan",
-            "red"
-        ]
-    },
-    {
-        "title": "48ft High Cube Container",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2019/09/used-48-hc-500x500.jpg",
-        "dimensions": [
-            {
-                "width": 8.0,
-                "height": 9.6,
-                "length": 48.0
-            }
-        ],
-        "keywords": [
-            "used",
-            "48ft"
-        ],
-        "condition": "used",
-        "colors": [
-            "blue",
-            "red"
-        ]
-    },
-    {
-        "title": "45FT High Cube Shipping Containers CW",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2019/09/used-48-hc-500x500.jpg",
-        "dimensions": [
-            {
-                "width": 8.0,
-                "height": 9.6,
-                "length": 45.0
-            }
-        ],
-        "keywords": [
-            "used",
-            "hc",
-            "45ft"
-        ],
-        "condition": "used",
-        "colors": [
-            "blue",
-            "red"
-        ]
-    },
-    {
-        "title": "45HC Shipping Container 1-Trip",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2019/09/used-48-hc-500x500.jpg",
-        "dimensions": [
-            {
-                "width": 8.0,
-                "height": 9.6,
-                "length": 45.0
-            }
-        ],
-        "keywords": [
-            "new",
-            "hc",
-            "45ft"
-        ],
-        "condition": "new",
-        "colors": [
-            "blue",
-            "red",
-            "green"
-        ]
-    },
-    {
-        "title": "53ft Shipping Container",
-        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2019/09/53-foot-container-500x500.jpg",
-        "dimensions": [
-            {
-                "width": 8.5,
-                "height": 9.5,
-                "length": 53.0
-            }
-        ],
-        "keywords": [
-            "new",
-            "hc",
-            "45ft"
-        ],
-        "condition": "new",
-        "colors": [
-            "blue",
-            "red",
-            "tan"
-        ]
-    }
+[{
+    "id": "10ft-One-Trip-Shipping-Container",
+    "title": "10ft One Trip Shipping Container",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2020/05/8ft-new-shipping-container-scaled-500x500.jpg",
+    "dimensions": [{
+        "width": 10.0,
+        "height": 8.6,
+        "length": 10.0
+    }],
+    "keywords": [
+        "new",
+        "10ft"
+    ],
+    "description": "Our most compact offering, these 10-foot containers measure 10' x 8' and can be used for any small packing or storage need you may have. Whether you’re packing up a small one-person loft or you need a container that be easily transported over land, this size is perfect for you. You don’t always need a 20- or 40-foot container. Those may be too much. With a 10-foot container, you get just enough room for what you need. They’re easier to maneuver and transport than their larger counterparts, translating to cheaper shipping costs for you as well as a smaller carbon footprint.",
+    "condition": "new",
+    "colors": [
+        "beige",
+        "red",
+        "blue"
+    ]
+},
+{
+    "id": "10ft-Shipping-Container",
+    "title": "10ft Shipping Container",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2019/09/10-White-Cutdown-with-Cargo-Doors-2-scaled-500x500.jpg",
+    "dimensions": [{
+        "width": 10.0,
+        "height": 8.6,
+        "length": 10.0
+    }],
+    "keywords": [
+        "used",
+        "10ft"
+    ],
+    "description": "Our most compact offering, these 10-foot containers measure 10' x 8' and can be used for any small packing or storage need you may have. Whether you’re packing up a small one-person loft or you need a container that be easily transported over land, this size is perfect for you. You don’t always need a 20- or 40-foot container. Those may be too much. With a 10-foot container, you get just enough room for what you need. They’re easier to maneuver and transport than their larger counterparts, translating to cheaper shipping costs for you as well as a smaller carbon footprint.",
+    "condition": "used",
+    "colors": [
+        "beige"
+    ]
+},
+{
+    "id": "10ft-Shipping-Container-with-Roll-Door",
+    "title": "10ft Shipping Container with Roll Door",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2020/05/Burnt-orange-10ft-with-roll-door-scaled-500x500.jpg",
+    "dimensions": [{
+        "width": 10.0,
+        "height": 8.6,
+        "length": 10.0
+    }],
+    "keywords": [
+        "used",
+        "10ft"
+    ],
+    "description": "Our most compact offering, these 10-foot containers measure 10' x 8' and can be used for any small packing or storage need you may have. Whether you’re packing up a small one-person loft or you need a container that be easily transported over land, this size is perfect for you. You don’t always need a 20- or 40-foot container. Those may be too much. With a 10-foot container, you get just enough room for what you need. They’re easier to maneuver and transport than their larger counterparts, translating to cheaper shipping costs for you as well as a smaller carbon footprint.",
+    "condition": "used",
+    "colors": [
+        "beige",
+        "red"
+    ]
+},
+{
+    "id": "8ft-Shipping-Container",
+    "title": "8ft Shipping Container",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2020/05/Burnt-orange-10ft-with-roll-door-scaled-500x500.jpg",
+    "dimensions": [{
+        "width": 8.0,
+        "height": 8.0,
+        "length": 8.0
+    }],
+    "keywords": [
+        "used",
+        "8ft"
+    ],
+    "description": "Our new 8 ft shipping containers are perfect for customers with limited space to accommodate even a 20 foot Cargo Container.8-foot storage containers are perfect for parking stalls, small retail spaces, apartments and condos, and aerial high rise and bridge construction. DRY BOX can now deliver your 8’ or 10ft storage container into tight locations and warehouses with our Moffet forklift service. DRY BOX Operates a DOOR to DOOR moving service similar to PODS using the 6’ and 8ft storage containers and Moffit forklift.",
+    "condition": "used",
+    "colors": [
+        "beige",
+        "blue",
+        "white"
+    ]
+},
+{
+    "id": "15ft-Modified-Shipping-Container",
+    "title": "15ft Modified Shipping Container",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2019/09/15-HC-Bright-Red-Custom-Storage-Container-with-Roll-Door-4-500x500.jpg",
+    "dimensions": [{
+            "width": 8.0,
+            "height": 8.6,
+            "length": 15.0
+        },
+        {
+            "width": 8.0,
+            "height": 9.6,
+            "length": 15.0
+        }
+    ],
+    "keywords": [
+        "custom",
+        "used",
+        "15ft"
+    ],
+    "description": "Measuring 15×8”, these containers give you a bit more room than our 10-foot containers yet not so much that you’re paying for empty space. Choose from cargo or rollup doors. Custom built and preferred over pods, our 15 ft containers are made of heavy steel construction, featuring custom paint colors to match your surroundings with optional high security doors. Built to last, these containers are perfect for moving a 1,200 sq. ft. space or smaller, holding about three rooms of items and up to about 5,000 lbs. Plus, they’re great for moves that require temporary storage.",
+    "condition": "used",
+    "colors": [
+        "blue",
+        "white"
+    ]
+},
+{
+    "id": "15ft-High-Cube-Custom-Storage-container-with-Lock-Box",
+    "title": "15ft High Cube Custom Storage container with Lock Box",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2020/06/drybox-shipping-container-coming-soon-3-500x500.png",
+    "dimensions": [{
+            "width": 8.0,
+            "height": 8.6,
+            "length": 15.0
+        },
+        {
+            "width": 8.0,
+            "height": 9.6,
+            "length": 15.0
+        }
+    ],
+    "keywords": [
+        "custom",
+        "used",
+        "hc",
+        "15ft"
+    ],
+    "description": "Measuring 15×8”, these containers give you a bit more room than our 10-foot containers yet not so much that you’re paying for empty space. Choose from cargo or rollup doors. Custom built and preferred over pods, our 15 ft containers are made of heavy steel construction, featuring custom paint colors to match your surroundings with optional high security doors. Built to last, these containers are perfect for moving a 1,200 sq. ft. space or smaller, holding about three rooms of items and up to about 5,000 lbs. Plus, they’re great for moves that require temporary storage.",
+    "condition": "new",
+    "colors": [
+        "blue",
+        "green"
+    ]
+},
+{
+    "id": "15ft-Custom-Storage-Container-with-Roll-Door",
+    "title": "15ft Custom Storage Container with Roll Door",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2020/06/DSC00247-scaled-500x500.jpg",
+    "dimensions": [{
+            "width": 8.0,
+            "height": 8.6,
+            "length": 15.0
+        },
+        {
+            "width": 8.0,
+            "height": 9.6,
+            "length": 15.0
+        }
+    ],
+    "keywords": [
+        "custom",
+        "used",
+        "15ft"
+    ],
+    "description": "Measuring 15×8”, these containers give you a bit more room than our 10-foot containers yet not so much that you’re paying for empty space. Choose from cargo or rollup doors. Custom built and preferred over pods, our 15 ft containers are made of heavy steel construction, featuring custom paint colors to match your surroundings with optional high security doors. Built to last, these containers are perfect for moving a 1,200 sq. ft. space or smaller, holding about three rooms of items and up to about 5,000 lbs. Plus, they’re great for moves that require temporary storage.",
+    "condition": "used",
+    "colors": [
+        "blue",
+        "green",
+        "silver",
+        "red"
+    ]
+},
+{
+    "id": "20ft-New-One Trip-Shipping-Container",
+    "title": "20ft New One Trip Shipping Container",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2019/09/20-New-one-trip-shipping-container-1-scaled-500x500.jpg",
+    "dimensions": [{
+        "width": 8.0,
+        "height": 8.6,
+        "length": 20.0
+    }],
+    "keywords": [
+        "new",
+        "20ft"
+    ],
+    "description": "Measuring 20 feet long and eight feet wide, this is one of our most popular shipping container sizes. In stock and built to order, you will enjoy the space and versatility offered by our 20 ft containers. These are popular, cost effective ways to store anything from home furnishings and business records to office files and furniture. Our 20 ft containers can fit between four and six rooms of belongings, depending on what those items are and how you pack them. Made from rugged steel construction and sturdy floors, these containers are designed for residential or commercial use.",
+    "condition": "new",
+    "colors": [
+        "blue",
+        "green",
+        "silver",
+        "red"
+    ]
+},
+{
+    "id": "20ft-WWT-Shipping-Container",
+    "title": "20ft WWT Shipping Container",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2020/05/DSC01203-scaled-500x500.jpg",
+    "dimensions": [{
+        "width": 8.0,
+        "height": 8.6,
+        "length": 20.0
+    }],
+    "keywords": [
+        "wwt",
+        "new",
+        "20ft"
+    ],
+    "description": "Measuring 20 feet long and eight feet wide, this is one of our most popular shipping container sizes. In stock and built to order, you will enjoy the space and versatility offered by our 20 ft containers. These are popular, cost effective ways to store anything from home furnishings and business records to office files and furniture. Our 20 ft containers can fit between four and six rooms of belongings, depending on what those items are and how you pack them. Made from rugged steel construction and sturdy floors, these containers are designed for residential or commercial use.",
+    "condition": "new",
+    "colors": [
+        "tan",
+        "beige",
+        "gray",
+        "blue"
+    ]
+},
+{
+    "id": "20ft-CW-Shipping-Container",
+    "title": "20ft CW Shipping Container",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2020/05/DSC01366-scaled-500x500.jpg",
+    "dimensions": [{
+        "width": 8.0,
+        "height": 8.6,
+        "length": 20.0
+    }],
+    "keywords": [
+        "cw",
+        "used",
+        "20ft"
+    ],
+    "description": "Measuring 20 feet long and eight feet wide, this is one of our most popular shipping container sizes. In stock and built to order, you will enjoy the space and versatility offered by our 20 ft containers. These are popular, cost effective ways to store anything from home furnishings and business records to office files and furniture. Our 20 ft containers can fit between four and six rooms of belongings, depending on what those items are and how you pack them. Made from rugged steel construction and sturdy floors, these containers are designed for residential or commercial use.",
+    "condition": "used",
+    "colors": [
+        "tan",
+        "beige",
+        "gray",
+        "blue"
+    ]
+},
+{
+    "id": "20ft-Used-Shipping-Container-IICL-Condition",
+    "title": "20ft Used Shipping Container (IICL Condition)",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2020/05/DSC01356-2-500x500.jpg",
+    "dimensions": [{
+        "width": 8.0,
+        "height": 8.6,
+        "length": 20.0
+    }],
+    "keywords": [
+        "iicl",
+        "used",
+        "20ft"
+    ],
+    "description": "Measuring 20 feet long and eight feet wide, this is one of our most popular shipping container sizes. In stock and built to order, you will enjoy the space and versatility offered by our 20 ft containers. These are popular, cost effective ways to store anything from home furnishings and business records to office files and furniture. Our 20 ft containers can fit between four and six rooms of belongings, depending on what those items are and how you pack them. Made from rugged steel construction and sturdy floors, these containers are designed for residential or commercial use.",
+    "condition": "used",
+    "colors": [
+        "tan",
+        "beige",
+        "gray",
+        "blue"
+    ]
+},
+{
+    "id": "24ft-Used-Modified-Container",
+    "title": "24ft Used Modified Container",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2020/05/DSC01356-2-500x500.jpg",
+    "dimensions": [{
+        "width": 8.0,
+        "height": 8.6,
+        "length": 20.0
+    }],
+    "keywords": [
+        "modified",
+        "used",
+        "24ft"
+    ],
+    "description": "Available in 8' 6\" or 9' 6\" (for additional $100), our 24 ft containers are our most popular size, with the ability to easily fit 20 feet of building material inside. All modified containers are guaranteed wind and water tight, with custom colors available for an additional $100. Made of heavy duty steel and weathertight features, these containers provide you with a safe and secure environment for all of your transporting and storage needs, with ground level entry ideal for easy and convenient access. We offer affordable rates and easy pickup terms for this size.",
+    "condition": "used",
+    "colors": [
+        "tan",
+        "beige"
+    ]
+},
+{
+    "id": "24ft-High-Cube-Custom-Storage-Container-with-Roll-Door",
+    "title": "24ft High Cube Custom Storage Container with Roll Door",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2020/06/20191111_153054-scaled-500x500.jpg",
+    "dimensions": [{
+        "width": 8.0,
+        "height": 8.6,
+        "length": 20.0
+    }],
+    "keywords": [
+        "hc",
+        "used",
+        "24ft"
+    ],
+    "description": "Available in 8' 6\" or 9' 6\" (for additional $100), our 24 ft containers are our most popular size, with the ability to easily fit 20 feet of building material inside. All modified containers are guaranteed wind and water tight, with custom colors available for an additional $100. Made of heavy duty steel and weathertight features, these containers provide you with a safe and secure environment for all of your transporting and storage needs, with ground level entry ideal for easy and convenient access. We offer affordable rates and easy pickup terms for this size.",
+    "condition": "used",
+    "colors": [
+        "tan",
+        "beige",
+        "green"
+    ]
+},
+{
+    "id": "30ft-Custom-Storage-container-with-Roll-door",
+    "title": "30ft Custom Storage container with Roll door",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2020/06/DSC03820-scaled-500x500.jpg",
+    "dimensions": [{
+            "width": 8.0,
+            "height": 8.6,
+            "length": 30.0
+        },
+        {
+            "width": 8.0,
+            "height": 9.6,
+            "length": 30.0
+        }
+    ],
+    "keywords": [
+        "used",
+        "30ft"
+    ],
+    "description": "DRY BOX offers 30ft custom Cargo Containers and a wide range of other custom container lengths to help our customers meet their specific requirements which may include matching the length of an existing structure like a garage barn or out building. All custom length storage containers are for ground level static storage and are not for stacking or shipment of goods. All custom length containers come with your choice of new Beige or Grey paint. Custom paint colors or Color match painting to your home or business is alto avaible for an additional charge. DRY BOX offers a wide selection of Container Modifications including doors, windows, vents, security upgrades, shutters and shelving.",
+    "condition": "used",
+    "colors": [
+        "tan",
+        "beige",
+        "green"
+    ]
+},
+{
+    "id": "40ft-Used-Shipping-Container",
+    "title": "40ft Shipping Container",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2019/09/new-40-500x500.jpg",
+    "dimensions": [{
+        "width": 8.0,
+        "height": 8.6,
+        "length": 40.0
+    }],
+    "keywords": [
+        "used",
+        "40ft"
+    ],
+    "condition": "used",
+    "colors": [
+        "tan",
+        "beige",
+        "green",
+        "blue"
+    ]
+},
+{
+    "id": "40ft-New-Shipping-Container",
+    "title": "40ft New Shipping Container",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500,h_480/https://dryboxusa.com/wp-content/uploads/2019/09/used-40-500x480.jpg",
+    "dimensions": [{
+        "width": 8.0,
+        "height": 8.6,
+        "length": 40.0
+    }],
+    "keywords": [
+        "new",
+        "40ft"
+    ],
+    "description": "Measuring 40 feet in length and eight feet in width, our in-stock 40 ft containers are spacious and convenient for any shipping or storage need. Typically, this will hold household goods of a two- to three-bedroom home with a living room, dining room, den, and kitchen. These containers can also hold machinery and equipment, such as small loaders or excavators, or even retail inventory, equipment or supplies. Built to last and protect cargo goods of all kinds, these 40 ft containers can be purchased or rented, with affordable rates for both that ensure you can stick to your budget.",
+    "condition": "new",
+    "colors": [
+        "tan",
+        "red"
+    ]
+},
+{
+    "id": "40ft-New-High-Cube-Container",
+    "title": "40ft New High Cube Container",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2019/09/new-40-hc-500x500.jpg",
+    "dimensions": [{
+        "width": 8.0,
+        "height": 9.6,
+        "length": 40.0
+    }],
+    "keywords": [
+        "new",
+        "hc",
+        "40ft"
+    ],
+    "description": "Measuring 40 feet in length and eight feet in width, our in-stock 40 ft containers are spacious and convenient for any shipping or storage need. Typically, this will hold household goods of a two- to three-bedroom home with a living room, dining room, den, and kitchen. These containers can also hold machinery and equipment, such as small loaders or excavators, or even retail inventory, equipment or supplies. Built to last and protect cargo goods of all kinds, these 40 ft containers can be purchased or rented, with affordable rates for both that ensure you can stick to your budget.",
+    "condition": "new",
+    "colors": [
+        "tan",
+        "red"
+    ]
+},
+{
+    "id": "40ft-Used-High-Cube-Container",
+    "title": "40ft Used High Cube Container",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2019/09/used-40ft-hc-container-500x375.jpg",
+    "dimensions": [{
+        "width": 8.0,
+        "height": 9.6,
+        "length": 40.0
+    }],
+    "keywords": [
+        "used",
+        "hc",
+        "40ft"
+    ],
+    "description": "Measuring 40 feet in length and eight feet in width, our in-stock 40 ft containers are spacious and convenient for any shipping or storage need. Typically, this will hold household goods of a two- to three-bedroom home with a living room, dining room, den, and kitchen. These containers can also hold machinery and equipment, such as small loaders or excavators, or even retail inventory, equipment or supplies. Built to last and protect cargo goods of all kinds, these 40 ft containers can be purchased or rented, with affordable rates for both that ensure you can stick to your budget.",
+    "condition": "used",
+    "colors": [
+        "tan",
+        "red"
+    ]
+},
+{
+    "id": "45ft-High-Cube-Container",
+    "title": "45ft High Cube Container",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2019/09/used-45-HC.jpg",
+    "dimensions": [{
+        "width": 8.0,
+        "height": 9.6,
+        "length": 40.0
+    }],
+    "keywords": [
+        "used",
+        "45ft"
+    ],
+    "description": "Our 45 ft high cube steel containers measure 9' 6\", available in wind and water tight condition with a one-year, no-leak warranty. Measuring 45 feet in length and eight feet in width, these sturdy and versatile containers are one foot taller than standard containers. Perfect for commercial, industrial and rural storage applications, these containers are secure and watertight, providing additional storage at your location with ground level access and lockable doors for the utmost in security. Featuring all steel construction, our 45 ft containers are great for either temporary or permanent storage.",
+    "condition": "used",
+    "colors": [
+        "tan",
+        "red"
+    ]
+},
+{
+    "id": "45FT-High-Cube-Shipping-Containers-CW",
+    "title": "45FT High Cube Shipping Containers CW",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2019/09/used-48-hc-500x500.jpg",
+    "dimensions": [{
+        "width": 8.0,
+        "height": 9.6,
+        "length": 45.0
+    }],
+    "keywords": [
+        "used",
+        "hc",
+        "45ft"
+    ],
+    "description": "Our 45 ft high cube steel containers measure 9' 6\", available in wind and water tight condition with a one-year, no-leak warranty. Measuring 45 feet in length and eight feet in width, these sturdy and versatile containers are one foot taller than standard containers. Perfect for commercial, industrial and rural storage applications, these containers are secure and watertight, providing additional storage at your location with ground level access and lockable doors for the utmost in security. Featuring all steel construction, our 45 ft containers are great for either temporary or permanent storage.",
+    "condition": "used",
+    "colors": [
+        "blue",
+        "red"
+    ]
+},
+{
+    "id": "45HC-Shipping-Container-1-Trip",
+    "title": "45HC Shipping Container 1-Trip",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2019/09/used-48-hc-500x500.jpg",
+    "dimensions": [{
+        "width": 8.0,
+        "height": 9.6,
+        "length": 45.0
+    }],
+    "keywords": [
+        "new",
+        "hc",
+        "45ft"
+    ],
+    "description": "Our 45 ft high cube steel containers measure 9' 6\", available in wind and water tight condition with a one-year, no-leak warranty. Measuring 45 feet in length and eight feet in width, these sturdy and versatile containers are one foot taller than standard containers. Perfect for commercial, industrial and rural storage applications, these containers are secure and watertight, providing additional storage at your location with ground level access and lockable doors for the utmost in security. Featuring all steel construction, our 45 ft containers are great for either temporary or permanent storage.",
+    "condition": "new",
+    "colors": [
+        "blue",
+        "red",
+        "green"
+    ]
+},
+{
+    "id": "53ft-Shipping-Container",
+    "title": "53ft Shipping Container",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500/https://dryboxusa.com/wp-content/uploads/2019/09/53-foot-container-500x500.jpg",
+    "dimensions": [{
+        "width": 8.5,
+        "height": 9.5,
+        "length": 53.0
+    }],
+    "keywords": [
+        "new",
+        "hc",
+        "45ft"
+    ],
+    "description": "Our largest shipping container size, these 53 ft steel containers are considered high cube, which means they are one foot taller than standard shipping containers and six inches wider than standard shipping containers. This extra width allows you to store items that are 8ft wide inside the container, perfect for storing cars and boats. We offer professional ground level delivery service and container relocation service of our 53ft rail containers. Used primarily for domestic over the road and rail service, our 53 ft containers are secure and watertight, with all steel construction great for temporary or permanent storage.",
+    "condition": "new",
+    "colors": [
+        "blue",
+        "red",
+        "tan"
+    ]
+}
 ]

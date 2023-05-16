@@ -1,7 +1,7 @@
 import useContainers from 'hooks/useContainers/useContainers';
 import { v4 } from 'uuid';
 import useFilters from 'hooks/useFilters';
-import { Outlet, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import cx from 'classnames';
 import Accordion from 'react-bootstrap/Accordion';
 import AccordionHeader from 'react-bootstrap/esm/AccordionHeader';
@@ -17,8 +17,7 @@ export default function ContainersPage() {
     const { filters, updateFilters, resetFilters} = useFilters();
     const [showFiltersMenu, setShowFiltersMenu] = useState(false);
     const { show } = useModal();
-
-    console.log({ filters });
+    const navigate = useNavigate();
 
     const colorFilters = [
         'beige',
@@ -66,22 +65,22 @@ export default function ContainersPage() {
         setShowFiltersMenu(!showFiltersMenu);
     }, [showFiltersMenu, setShowFiltersMenu]);
 
-    function stringify_title(title: string) {
-        return title?.replace(/\s/g, "-");
-    }
-
     const renderContainers = () => {
         if (data) {
             return data?.map(container => {
                 return (
-                    <div key={v4()} className={styles?.container}>
+                    <div key={container?.id} className={styles?.container}>
                         <figure>
-                            <a href={`/containers/${stringify_title(container?.title)}`}>
+                            <a onClick={() => navigate(`/containers/${container?.id}`)}>
                                 <div className={styles?.condition}>{container?.condition}</div>
                                 <img src={container?.image} alt={container?.title} />
                             </a>
                         </figure>
-                        <h6><a href={`/containers/${stringify_title(container?.title)}`}>{container?.title}</a></h6>
+                        <h6>
+                            <a onClick={() => navigate(`/containers/${container?.id}`)}>
+                                {container?.title}
+                            </a>
+                        </h6>
                         <div className={styles?.colors}>
                             <b>Colors:</b>
                             <div className={styles?.colorSwatches}>

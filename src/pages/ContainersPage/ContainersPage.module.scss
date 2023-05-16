@@ -127,6 +127,11 @@
     border-radius: 6px;
     position: relative;
 
+    a {
+        color: var(--color-blue);
+        cursor: pointer;
+    }
+    
     figure {
         position: relative;
     }
@@ -141,10 +146,6 @@
         margin-bottom: 20px;
         font-size: 22px;
         font-weight: 600;
-
-        a {
-            color: var(--color-blue);
-        }
     }
 
     .condition {
