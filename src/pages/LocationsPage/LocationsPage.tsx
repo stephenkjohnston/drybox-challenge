@@ -1,11 +1,14 @@
 import { useParams } from 'react-router-dom';
+import LocationInfoBlock from 'components/shared/LocationInfoBlock/LocationInfoBlock';
+
+import styles from './LocationsPage.module.scss';
 
 export default function LocationsPage() {
     const { state } = useParams();
 
     return (
-        <>
-            <h2>Locations Page: {state}</h2>
-        </>
+        <section className={styles?.locationsPage}>
+            <LocationInfoBlock state={state} />
+        </section>
     )
 }
