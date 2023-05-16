@@ -10,6 +10,7 @@ export default function GlobalHeader() {
     
     // Set initial state of the hamburger menu
     const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
+    
     let location = useLocation();
     
     // Get the global modal hook

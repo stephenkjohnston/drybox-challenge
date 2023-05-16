@@ -7,14 +7,11 @@ import cx from 'classnames';
 import styles from './ContainerPage.module.scss';
 import useModal from 'hooks/useModal/useModal';
 import { formatDimensions } from 'utils';
-import useScrollToTop from 'hooks/useScrollToTop';
 
 export default function ContainerPage() {
     const { pathname } = useLocation();
     const { show } = useModal();
     const containerID = pathname.split('/')[2];
-    
-    useScrollToTop();
     
     const { data } = useContainer(containerID);
 

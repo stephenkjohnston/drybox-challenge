@@ -18,9 +18,13 @@ import LocationsPage from 'pages/LocationsPage/LocationsPage';
 import LocationPage from 'pages/LocationPage/LocationPage';
 import AboutPage from 'pages/AboutPage/AboutPage';
 import ContactPage from 'pages/ContactPage/ContactPage';
+import useScrollToTop from 'hooks/useScrollToTop';
 
 export default function AppContainer() {
     const { visible } = useModal();
+    
+    useScrollToTop();
+
     return (
         <>
             <GlobalHeader />
