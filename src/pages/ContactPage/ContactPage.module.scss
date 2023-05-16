@@ -1,0 +1,70 @@
+.contactUsHero {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 40px;
+    width: 100%;
+    background: url('../../assets/images/contact-hero.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 200px;
+    text-align: center;
+    color: var(--color-white);
+
+    h1 {
+        text-transform: uppercase;
+        text-shadow: 1px 1px 2px black;
+    }
+}
+
+.contactPage {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px 0;
+    padding-right: 24px;
+    padding-left: 24px;
+    max-width: 1200px;
+
+    .blurb {
+        margin-bottom: 40px;
+    }
+}
+
+.contactInfoBox {
+    display: flex;
+
+    @media only screen and (max-width: 991px) {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+.offices {
+    .section {
+        :is(:last-child) {
+            a {
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.offices,
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    .section {
+        h3 {
+            text-transform: uppercase;
+            font-weight: 800;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+       &:not(:last-child) {
+        margin-bottom: 30px;
+       } 
+    }
+}
