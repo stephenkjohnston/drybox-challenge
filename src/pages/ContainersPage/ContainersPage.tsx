@@ -1,7 +1,7 @@
 import useContainers from 'hooks/useContainers/useContainers';
 import { v4 } from 'uuid';
 import useFilters from 'hooks/useFilters';
-import { useParams } from 'react-router-dom';
+import { Outlet, useParams } from 'react-router-dom';
 import cx from 'classnames';
 import Accordion from 'react-bootstrap/Accordion';
 import AccordionHeader from 'react-bootstrap/esm/AccordionHeader';

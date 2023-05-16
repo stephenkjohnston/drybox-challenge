@@ -4,6 +4,7 @@ import ContainersPage from "pages/ContainersPage";
 import LocationsPage from "pages/LocationsPage";
 import AboutPage from "pages/AboutPage";
 import ContactPage from "pages/ContactPage";
+import ContainerPage from "pages/ContainerPage/ContainerPage";
 
 export default createBrowserRouter([
     {
@@ -12,33 +13,26 @@ export default createBrowserRouter([
     },
     {
         path: '/containers',
-        element: <ContainersPage />,
-        children: [
-            {
-                path: '/containers/:containerType'
-            }
-        ]
+        element: <ContainersPage />
     },
     {
-        path: '/locations',
+        path: '/containers/:containerType',
+        element: <ContainerPage />
+    },
+    {
+        path: '/locations/:state',
         element: <LocationsPage />,
-        children: [
-            {
-                path: '/locations/:stateName'
-            }
-        ]
     },
     {
-        path: '/company',
-        children: [
-            {
-                path: '/company/about',
-                element: <AboutPage />
-            },
-            {
-                path: '/company/contact',
-                element: <ContactPage />
-            }
-        ]
+        path: '/locations/:state/:city',
+        element: <LocationsPage />,
+    },
+    {
+        path: '/company/about',
+        element: <AboutPage />
+    },
+    {
+        path: '/company/contact',
+        element: <ContactPage />
     }
 ])

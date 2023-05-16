@@ -1,11 +1,11 @@
 import { useParams } from 'react-router-dom';
 
 export default function LocationsPage() {
-    const { stateName } = useParams();
+    const { state } = useParams();
 
     return (
         <>
-            <h2>Locations Page: {stateName}</h2>
+            <h2>Locations Page: {state}</h2>
         </>
     )
 }

@@ -1,4 +1,5 @@
 import { useState, useCallback } from 'react';
+import { Link } from "react-router-dom";
 import cx from 'classnames';
 
 import WSCLogo from '../../../assets/images/logo.png';
@@ -48,20 +49,20 @@ export default function GlobalHeader() {
             <nav className={menuClassNames}>
                 <ul>
                     <li className={styles?.menu}>
-                        <a href="/containers" title="Shop Containers">Shop Containers</a>
+                        <Link to="/containers/">Shop Containers</Link>
                     </li>
                     <li className={styles?.menu}>
-                        <a href="#">Locations</a>
+                        <a>Locations</a>
                         <ul className={styles?.submenu}>
-                            <li><a href="#">Washington</a></li>
-                            <li><a href="#">Oregon</a></li>
+                            <li><Link to="/locations/washington">Washington</Link></li>
+                            <li><Link to="/locations/oregon">Oregon</Link></li>
                         </ul>
                     </li>
                     <li className={styles?.menu}>
-                        <a href="#">Company</a>
+                        <a>Company</a>
                         <ul className={styles?.submenu}>
-                            <li><a href="/company/about">About Us</a></li>
-                            <li><a href="/company/contact">Contact</a></li>
+                            <li><Link to="/company/about">About</Link></li>
+                            <li><Link to="/company/contact">Contact</Link></li>
                         </ul>
                     </li>
                 </ul>
