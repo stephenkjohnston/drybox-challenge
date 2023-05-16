@@ -31,6 +31,7 @@ export default function ContainerPage() {
                         imageSrc={`${data?.image}`}
                         imageAlt={data?.title}
                         magnifierBorderSize={4}
+                        magnifierSize="35%"
                     />
                 </figure>
                 <div className={styles?.containerOverviewDetails}>
